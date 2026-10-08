@@ -1,0 +1,87 @@
+---
+title: 'Programm'
+subtitle: 'Mittwoch, 14. Oktober 2026, 13:00–17:00 Uhr · UniS A-124'
+lang: de-CH
+---
+
+Der Workshop folgt dem Aufbau früherer Workshops mit Mitarbeitenden der Universitätsbibliothek
+(Input → Toolübersicht → Aufgaben → Präsentation), in aktualisierter Form: Der Input zu Beginn ist
+länger, neu kommen ein praktischer Einstieg mit dem Swiss History Bot, GPUStack als
+universitätseigene Infrastruktur und zum Abschluss agentische Systeme dazu.
+
+## 13:00 · Begrüssung
+
+## 13:05–13:25 · Vorstellungsrunde
+
+-   Name und Arbeitsbereich
+-   Wo begegnen Ihnen grosse Textmengen im Arbeitsalltag?
+-   Welche KI-Werkzeuge nutzen Sie bereits – wofür?
+-   Was möchten Sie heute mitnehmen?
+
+Die genannten Anwendungsfälle sind Kandidaten für die Gruppenaufgaben am Nachmittag.
+
+## 13:25–13:40 · Einstieg: Swiss History Bot testen [Praxis]{.phase .phase-praxis}
+
+Kurze Demo, danach probieren alle selbst aus: Dialog mit Belegen, semantische Suche, Grenzen.
+Beobachtungen notieren – wir kommen im Input und am Schluss darauf zurück.
+
+→ [Swiss History Bot: Anleitung und Testfragen](agenten.qmd#swiss-history-bot)
+
+## 13:40–14:35 · Generative KI: Stand von Technologie und Anwendung [Input]{.phase .phase-input}
+
+1.  **Wie Sprachmodelle funktionieren:** Tokens, Wahrscheinlichkeiten, Vektorraum;
+    «Imitationsmaschine»
+2.  **Grenzen:** Halluzinationen, Bias, fehlendes Trainingsmaterial (z. B. für historische
+    Texte)
+3.  **Was ist neu?** Multimodalität, Reasoning, grössere Kontextfenster, Mixture of Experts und
+    der Schub für kleinere, lokal betreibbare Modelle
+4.  **Anwendungsszenarien:** Umformulieren, Zusammenfassen, Informationsextraktion (Named
+    Entities, Schlagworte, Topics), Übersetzung und Normalisierung, Code
+5.  **Halluzinationen reduzieren:** eigene GPTs und NotebookLM, Retrieval Augmented Generation
+    (RAG) als Open-Source-Lösung
+6.  **Fallbeispiele:** Regesten (Königsfelden), «Data Science» mit LLMs, Wissensextraktion als
+    Linked Open Data, Normdatenabgleich
+7.  **Ceterum censeo:** Sprachmodelle müssen nicht immer «gross» sein
+
+## 14:35–14:50 · Toolübersicht und KI-Angebote der Uni Bern [Input]{.phase .phase-input}
+
+-   GPT Builder (eigene GPTs) und NotebookLM
+-   Recherche-Tools
+-   Topic Modeling
+-   Bildanalyse mit Teachable Machine
+-   **GPUStack** (gpustack.unibe.ch, nur via VPN) und lokale Clients (Msty)
+-   Rechtliche Rahmenbedingungen und Angebote der Informatikdienste ([unibe.ai](https://unibe.ai))
+
+→ [Werkzeuge](werkzeuge.qmd)
+
+## 14:50–15:05 · Pause [Pause]{.phase .phase-pause}
+
+Inklusive Zeit für Fragen und Unklarheiten, VPN- und Login-Probleme.
+
+## 15:05–16:05 · Aufgaben in Gruppen [Praxis]{.phase .phase-praxis}
+
+Gruppen von 3–4 Personen wählen eine [Aufgabe](aufgaben.qmd) – idealerweise einen
+Anwendungsfall aus dem eigenen Arbeitsalltag – und setzen eine erste prototypische Lösung um:
+Aufgabe definieren, Qualitätsanspruch festlegen, umsetzen, evaluieren.
+
+## 16:05–16:35 · Präsentation und Auswertung [Reflexion]{.phase .phase-reflexion}
+
+Jede Gruppe stellt in ca. 4 Minuten vor: Aufgabe, Werkzeug, Ergebnis, Grenzen. Gemeinsam sammeln
+wir Herausforderungen und Grenzen der eingesetzten Systeme.
+
+## 16:35–16:50 · Agentische Systeme [Input]{.phase .phase-input}
+
+-   Vom Chatbot zum Agenten: LLM, Bot, Agent
+-   Rückblick auf den Swiss History Bot: Was fehlt, damit aus einem Bot ein Agent wird?
+-   **Agentic Historian:** ein Multi-Agenten-System für die Quellenerschliessung
+-   Agentic Coding, Model Context Protocol und «potenzielle Sicherheitsdesaster»
+
+→ [Bots & Agenten](agenten.qmd)
+
+## 16:50–17:00 · Strategien, Fragen, Evaluation [Reflexion]{.phase .phase-reflexion}
+
+-   Strategien für einen reflektierten und verantwortungsvollen Umgang mit KI
+-   Offene Fragen
+-   Evaluation des Workshops
+
+→ [Reflexion](reflexion.qmd)

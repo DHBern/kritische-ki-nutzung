@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: 'Kritische KI-Nutzung — Workshop-Website'
+message: >-
+  If you use these teaching materials, please cite them using the metadata from this file.
+type: dataset
+authors:
+  - given-names: Tobias
+    family-names: Hodel
+    email: tobias.hodel@unibe.ch
+    affiliation: University of Bern
+    orcid: 'https://orcid.org/0000-0002-2071-6407'
+repository-code: 'https://github.com/DHBern/kritische-ki-nutzung/'
+url: 'https://dhbern.github.io/kritische-ki-nutzung/'
+abstract: >-
+  Website for the four-hour workshop "Kritische KI-Nutzung" (critical use of AI) offered by the
+  internal continuing education group (AG IWB) of the University of Bern on 14 October 2026. The
+  workshop gives an overview of current developments in generative AI and how LLMs, bots and
+  agents work; participants build first prototypes for use cases from their daily work with
+  commercial and local systems, including the university's GPUStack instance, and reflect on the
+  limits of these systems and on strategies for responsible use.
+keywords:
+  - Generative AI
+  - Large Language Models
+  - AI Agents
+  - Continuing Education
+  - Digital Humanities
+license: CC-BY-SA-4.0
+version: 0.1.0
+date-released: '2026-10-08'

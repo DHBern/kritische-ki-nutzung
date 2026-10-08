@@ -1,0 +1,145 @@
+---
+title: 'Werkzeuge'
+subtitle: 'Toolübersicht und KI-Angebote der Universität Bern'
+lang: de-CH
+---
+
+::: callout-warning
+## Bevor Sie Daten hochladen
+
+Die Universität Bern hält fest: In KI-Systeme dürfen **keine personenbezogenen Daten**, keine
+Amts- oder Berufsgeheimnisse und keine besonders schützenswerten Personen- oder Forschungsdaten
+eingegeben werden – nur Informationen, die für die Öffentlichkeit bestimmt sind oder keinen
+rechtlichen Schutzbedarf haben. Das gilt auch für die von der Universität bereitgestellten
+Dienste. Details: [unibe.ai](https://unibe.ai).
+
+Faustregel aus dem Workshop: **Gratis heisst, dass Sie bzw. Ihre Daten das Produkt sind.**
+Urheberrechtlich geschütztes Material gehört in lokale oder von der Universität betriebene Modelle.
+:::
+
+## Toolübersicht für den Workshop
+
+::: tool-grid
+::: tool
+#### GPT Builder / eigene GPTs
+
+Einen Chatbot mit eigenen Anweisungen und Dokumenten konfigurieren – ohne Programmierung.
+Reduziert Halluzinationen, bleibt aber eine Blackbox beim Anbieter.
+
+[chatgpt.com/gpts](https://chatgpt.com/gpts) (Abo nötig) · Alternative:
+[NotebookLM](https://notebooklm.google.com/)
+:::
+
+::: tool
+#### Recherche-Tools
+
+KI-gestützte Literatursuche und -zusammenfassung. Gut für den Einstieg, ersetzt aber nicht die
+Recherche in Katalogen und Datenbanken.
+
+[Tool-Liste der UB](https://www.ub.unibe.ch/recherche/hilfe_und_tools/tools/index_ger.html) ·
+[ZHAW-Kurs «KI-Tools für die Literaturrecherche»](https://moodle.zhaw.ch/mod/page/view.php?id=1027618)
+:::
+
+::: tool
+#### Topic Modeling
+
+Themen in grossen Textmengen automatisch finden – klassisch (statistisch) oder mit einem LLM.
+Ein Vergleich beider Wege zeigt, was «Topics» eigentlich sind.
+
+[Voyant Tools](https://voyant-tools.org/) · per LLM über GPUStack oder einen kommerziellen Chat
+:::
+
+::: tool
+#### Bildanalyse / Teachable Machine
+
+Ein eigenes Bildklassifikationsmodell im Browser trainieren: Was lernt das Modell – und was
+nicht?
+
+[teachablemachine.withgoogle.com](https://teachablemachine.withgoogle.com/) · Bildbeschreibung
+mit multimodalen Modellen (z. B. Qwen3-VL auf GPUStack)
+:::
+
+::: tool
+#### GPUStack (Uni Bern)
+
+Open-Source-Modelle auf Infrastruktur der Universität, über eine Weboberfläche und eine
+OpenAI-kompatible Schnittstelle. Nur via VPN.
+
+[gpustack.unibe.ch](https://gpustack.unibe.ch) · [mehr dazu](#gpustack)
+:::
+
+::: tool
+#### Msty Studio (lokaler Client)
+
+Desktop-App, die lokale Modelle (z. B. Llama, Gemma) und entfernte Anbieter (GPUStack, OpenAI,
+Google) in einer Oberfläche zusammenbringt.
+
+[msty.ai](https://msty.ai/)
+:::
+:::
+
+## GPUStack {#gpustack}
+
+[GPUStack](https://github.com/gpustack/gpustack) ist eine Open-Source-Software, mit der sich
+Sprach-, Bild-, Embedding- und Spracherkennungsmodelle auf eigenen Grafikkarten betreiben lassen.
+An der Universität Bern läuft eine Instanz unter **<https://gpustack.unibe.ch>** – erreichbar
+**nur über das VPN** der Universität.
+
+Warum das interessant ist: Durch Mixture-of-Experts-Architekturen und bessere Trainingsverfahren
+werden Modelle mit 1–40 Milliarden Parametern deutlich fähiger. Damit wird der **Betrieb auf
+bezahlbarer, eigener Infrastruktur** möglich, und Open-Source-Modelle bleiben eine echte
+Alternative zu den grossen Anbietern.
+
+Modelle auf der Instanz (Stand Herbst 2026; welche gerade laufen, zeigt der Status «Ready» in der Modellübersicht):
+
+| Modell                             | Typ                         | Wofür im Workshop                     |
+|------------------------------------|-----------------------------|---------------------------------------|
+| gpt-oss-120b                       | LLM                         | Chat, Zusammenfassen, Extraktion      |
+| minimax-m2.7                       | LLM (agentisch)             | komplexere Aufgaben, Tool-Nutzung     |
+| qwen3-coder-30b-a3b-instruct       | LLM (Code)                  | Skripte, Datenaufbereitung            |
+| qwen3-vl-30b-a3b-instruct, qwen3-vl-8b-instruct | multimodal (Bild + Text)    | Bildbeschreibung, Dokumentanalyse     |
+| internvl3-8b-instruct              | multimodal                  | Bildbeschreibung                      |
+| olmocr-2-7b-1025-fp8               | OCR                         | Texterkennung aus Scans/PDFs          |
+| faster-whisper-large-v3            | Spracherkennung             | Transkription von Audio               |
+| qwen3-embedding-0.6b, granite-embedding-107m-multilingual | Embeddings             | semantische Suche, RAG                |
+| jina-reranker-v2-base-multilingual | Reranker                    | RAG                                   |
+
+### So greifen Sie zu
+
+1.  VPN der Universität verbinden.
+2.  <https://gpustack.unibe.ch> öffnen und anmelden; im **Playground** lassen sich die Modelle
+    direkt testen.
+3.  Für andere Programme (z. B. Msty, Python): unter **Access Control → API Keys** einen
+    Schlüssel erzeugen (er wird nur einmal angezeigt) und als OpenAI-kompatiblen Anbieter
+    eintragen:
+
+``` text
+Base URL:  https://gpustack.unibe.ch/v1
+API Key:   <Ihr eigener Schlüssel>
+Modell:    z. B. gpt-oss-120b
+```
+
+::: callout-note
+API-Schlüssel sind persönlich. Sie gehören nicht auf Folien, in geteilte Dokumente oder in
+Repositorien.
+:::
+
+## KI-Angebote der Universität Bern
+
+Die Informatikdienste führen eine Übersicht der lizenzierten generativen KI-Dienste unter
+[unibe.ai](https://unibe.ai), darunter (Stand Oktober 2026):
+
+-   **GitHub Copilot** (Business/Enterprise) – Programmierung, Studierende und Mitarbeitende
+-   **Microsoft Foundry** – Zugang zu KI-Modellen für die Forschung, nach Verbrauch abgerechnet
+-   **Adobe Firefly** – Bildgenerierung, Mitarbeitende
+-   **DeepL Pro** (inkl. Write Pro) – Übersetzung, Mitarbeitende
+
+Weitere Angebote:
+
+-   **GPUStack** – [siehe oben](#gpustack)
+-   **Text Lab on OnDemand** des [Data Science Lab](https://www.dsl.unibe.ch/support/services/) –
+    KI-gestützte Datenverarbeitung im Universitätsnetz
+-   **Universitätsbibliothek:**
+    [KI im wissenschaftlichen Arbeiten](https://www.ub.unibe.ch/service/ki_im_wissenschaftlichen_arbeiten/index_ger.html),
+    [Kurse und Beratung](https://www.ub.unibe.ch/service/kurse_und_beratung/index_ger.html)
+-   **ILIAS-Selbstlernmodul** [«KI-Sprachwerkzeuge im Studium»](https://www.unibe.ch/studium/studienangebote/kompetenzen_fuer_die_digitale_zukunft/module/ki_sprachwerkzeuge/index_ger.html)

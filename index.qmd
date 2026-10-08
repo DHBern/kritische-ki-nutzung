@@ -1,0 +1,104 @@
+---
+title: 'Kritische KI-Nutzung'
+subtitle: 'Workshop der AG Interne Weiterbildung (AG IWB), Universität Bern'
+lang: de-CH
+date: 2026-10-08
+date-modified: last-modified
+toc: false
+authors:
+  - name: Tobias Hodel
+    orcid: 0000-0002-2071-6407
+    email: tobias.hodel@unibe.ch
+    affiliations:
+      - Digital Humanities / Walter Benjamin Kolleg, Universität Bern
+copyright:
+  holder: Tobias Hodel
+  year: 2026
+license:
+  text: >
+    Diese Lizenz erlaubt es, das Material zu verbreiten, zu bearbeiten und darauf aufzubauen,
+    auch kommerziell, sofern der Urheber genannt wird und neue Werke unter denselben Bedingungen
+    veröffentlicht werden.
+  type: open-access
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+---
+
+::: facts
+**Datum**
+
+Mittwoch, 14. Oktober 2026, 13:00–17:00 Uhr
+
+**Ort**
+
+UniS, Schanzeneckstrasse 1, Seminarraum A-124
+
+**Form**
+
+Workshop, max. 25 Personen
+
+**Leitung**
+
+Prof. Dr. Tobias Hodel, Digital Humanities, Walter Benjamin Kolleg
+
+**Organisation**
+
+AG Interne Weiterbildung (Andrea Stettler)
+
+**Anmeldung**
+
+bis Freitag, 9. Oktober 2026 via Veranstaltungskalender
+:::
+
+## Worum es geht
+
+Vermittelt wird ein Überblick über KI-Entwicklungen und deren Funktionsweisen, insbesondere von
+**Bots und Agenten**. Anhand konkreter Anwendungsfälle aus ihrem Arbeitsalltag entwickeln die
+Teilnehmenden mit Hilfe **lokaler und kommerzieller KI-Systeme** erste prototypische Lösungen. In
+der Auswertungs- und Reflexionsphase werden Herausforderungen und Grenzen der eingesetzten Systeme
+identifiziert und diskutiert. Gemeinsam werden zudem Strategien für einen reflektierten und
+verantwortungsvollen Umgang mit KI erarbeitet.
+
+**Zielgruppe:** Alle Interessierten, die regelmässig mit grossen Textmengen umgehen wollen oder
+müssen.
+
+**Voraussetzung:** Offenheit für die Interaktion mit neuen Systemen. Bitte einen Laptop mitbringen
+und, wenn möglich, vorab den [VPN-Zugang der Universität](https://www.unibe.ch/universitaet/campus__und__infrastruktur/rund_um_computer/internetzugang/vpn/index_ger.html)
+einrichten (nötig für [GPUStack](contents/werkzeuge.qmd#gpustack)).
+
+## Lernziele
+
+-   Kenntnis der neusten Entwicklungen generativer KI
+-   Verständnis von KI-Funktionsweisen und Ansätzen (LLM, Bot, Agent)
+-   KI-Anwendung für eigene Fragestellungen
+-   Kenntnis der KI-Angebote der Universität Bern (Informatikdienste, UB, GPUStack)
+
+## Ablauf in Kürze
+
+| Zeit        | Teil                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------- |
+| 13:00       | Begrüssung                                                                            |
+| 13:05–13:25 | Vorstellungsrunde                                                                     |
+| 13:25–13:40 | [Praxis]{.phase .phase-praxis} Einstieg: Swiss History Bot testen                     |
+| 13:40–14:35 | [Input]{.phase .phase-input} Generative KI: Stand von Technologie und Anwendung       |
+| 14:35–14:50 | [Input]{.phase .phase-input} Toolübersicht und KI-Angebote der Uni Bern              |
+| 14:50–15:05 | [Pause]{.phase .phase-pause}                                                          |
+| 15:05–16:05 | [Praxis]{.phase .phase-praxis} Aufgaben in Gruppen                                    |
+| 16:05–16:35 | [Reflexion]{.phase .phase-reflexion} Präsentation und Auswertung                      |
+| 16:35–16:50 | [Input]{.phase .phase-input} Agentische Systeme: Agentic Historian                    |
+| 16:50–17:00 | [Reflexion]{.phase .phase-reflexion} Strategien, Fragen, Evaluation                   |
+
+→ [Detailliertes Programm](contents/programm.qmd)
+
+::: qr-box
+<img src="assets/qr-code.svg" alt="QR-Code, der auf https://dhbern.github.io/kritische-ki-nutzung/ verweist">
+
+
+<div>
+
+**Diese Seite auf dem eigenen Gerät öffnen**\
+<https://dhbern.github.io/kritische-ki-nutzung/>\
+Hier finden Sie während und nach dem Workshop Programm, Werkzeuge, Aufgaben und
+[Folien](contents/folien.qmd).
+
+</div>
+:::

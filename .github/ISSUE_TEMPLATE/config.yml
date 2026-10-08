@@ -1,0 +1,8 @@
+contact_links:
+  - name: Are you looking for documentation on kritische-ki-nutzung?
+    url: https://DHBern.github.io/kritische-ki-nutzung
+    about: Please see the documentation for kritische-ki-nutzung on its GitHub Pages page.
+  - name: Do want to discuss kritische-ki-nutzung with the community?
+    url: https://github.com/DHBern/kritische-ki-nutzung/discussions
+    about: Please see the discussions page for kritische-ki-nutzung.
+blank_issues_enabled: true

@@ -1,0 +1,13 @@
+---
+title: 'Folien'
+lang: de-CH
+---
+
+Die Folien des Workshops vom 14. Oktober 2026:
+
+-   [Folien als PDF herunterladen](../assets/2026_10_14_Kritische_KI.pdf)
+
+Die Folien bauen auf früheren Vorträgen und Workshops auf: *Large Language Models in Research:
+Data from Text / Text as Data* (Universität Bern), *Generative AI in Research: Data from Text &
+Images* (Einführung in die Digital Humanities, FS 2026) und *Generative KI im reflektierten
+Einsatz: Aktueller Stand von Technologie und Anwendung* (KILOF 2026).

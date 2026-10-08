@@ -1,0 +1,83 @@
+---
+title: 'Aufgaben'
+subtitle: 'Gruppenarbeit 15:05–16:05 · Präsentation 16:05–16:35'
+lang: de-CH
+---
+
+Vom Wissen über die Systeme wechseln wir zu den **Aufgaben**: Wofür würden Sie generative KI in
+Ihrem Arbeitsalltag einsetzen? Bilden Sie Gruppen von 3–4 Personen und wählen Sie entweder einen
+**eigenen Anwendungsfall** oder eine der Aufgaben unten.
+
+::: callout-important
+## Vorgehen in vier Schritten
+
+1.  **Aufgabe definieren:** Was genau soll das System tun? Mit welchem Material?
+2.  **Qualitätsanspruch festlegen:** Wann wäre das Ergebnis «gut genug»? Woran merken Sie
+    Fehler?
+3.  **Umsetzen:** mit mindestens einem kommerziellen und – wenn möglich – einem lokalen bzw.
+    universitätseigenen System ([GPUStack](werkzeuge.qmd#gpustack)).
+4.  **Evaluieren:** Stichproben prüfen, Fehler sammeln, Systeme vergleichen.
+
+Verwenden Sie nur Material ohne Personendaten und ohne Schutzbedarf (siehe
+[Werkzeuge](werkzeuge.qmd)).
+:::
+
+## Aufgaben zur Auswahl
+
+### A · Eigener Chatbot für Dokumente
+
+Bauen Sie mit dem **GPT Builder** oder **NotebookLM** einen Assistenten, der Fragen zu einer
+Sammlung von Dokumenten beantwortet (z. B. Reglemente, Benutzungsordnungen, FAQ, Handbücher).
+
+-   Wie gut belegt der Bot seine Antworten mit Quellen?
+-   Was passiert bei Fragen, deren Antwort *nicht* in den Dokumenten steht?
+
+### B · Recherche mit KI
+
+Recherchieren Sie ein Thema aus Ihrem Arbeitsbereich mit einem **KI-Recherche-Tool** und
+vergleichen Sie das Ergebnis mit einer klassischen Recherche (Katalog, Datenbank).
+
+-   Stimmen die Literaturangaben? Gibt es erfundene Titel?
+-   Welche Quellen fehlen systematisch?
+
+### C · Topic Modeling und Verschlagwortung
+
+Lassen Sie ein LLM die Themen bzw. Schlagworte einer Textsammlung bestimmen und vergleichen Sie
+mit einem statistischen Verfahren ([Voyant Tools](https://voyant-tools.org/)) oder einem
+kontrollierten Vokabular (z. B. GND).
+
+-   Sind die Themen nachvollziehbar und stabil, wenn Sie den Prompt leicht ändern?
+-   Wie liesse sich das Ergebnis mit Normdaten verknüpfen?
+
+### D · Bildanalyse
+
+Trainieren Sie mit **Teachable Machine** ein kleines Klassifikationsmodell (z. B. Dokumenttypen,
+Einbände, Objektfotos) **oder** lassen Sie ein multimodales Modell auf GPUStack Bilder
+beschreiben.
+
+-   Woran «erkennt» das Modell die Klassen tatsächlich?
+-   Wie konsistent sind die Bildbeschreibungen über viele Bilder hinweg?
+
+### E · Informationsextraktion aus Text
+
+Extrahieren Sie Personen, Orte, Daten oder Werke aus einem längeren Text (z. B. Jahresbericht,
+Briefedition, Findmittel) in eine Tabelle – mit einem kommerziellen Modell und mit
+**gpt-oss-120b** auf GPUStack.
+
+-   Wie hoch ist die Fehlerquote in einer Stichprobe von 20 Einträgen?
+-   Welches System ist nachvollziehbarer?
+
+### F · Texterkennung, Übersetzung, Zusammenfassung
+
+Erkennen Sie Text aus einem Scan (OCR, z. B. mit **olmocr** auf GPUStack), übersetzen oder
+normalisieren Sie ihn und erstellen Sie eine Zusammenfassung (Regest).
+
+-   Wo entstehen Fehler – bei der Erkennung oder bei der Weiterverarbeitung?
+-   Wie gehen Sie mit «Hyperkorrekturen» um, die plausibel klingen, aber falsch sind?
+
+## Präsentation (ca. 4 Minuten pro Gruppe)
+
+1.  Aufgabe und Material
+2.  Eingesetzte Systeme (kommerziell / lokal / Uni)
+3.  Ergebnis – mit einem gelungenen und einem misslungenen Beispiel
+4.  Grenzen und offene Fragen: Was würden Sie im Arbeitsalltag *nicht* der KI überlassen?

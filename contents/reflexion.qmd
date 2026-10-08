@@ -1,0 +1,63 @@
+---
+title: 'Reflexion'
+subtitle: 'Grenzen erkennen, Strategien entwickeln'
+lang: de-CH
+---
+
+## Was bleibt – trotz aller Fortschritte
+
+-   **Probleme bleiben** → Überprüfung und Qualitätsmanagement sind nötig.
+-   **Zusätzliche Herausforderungen bei der Sicherheit** → klare Vorgaben und Bewusstsein für
+    Probleme.
+-   **Abhängigkeit von Anbietern** → eigene Lösungen implementieren (z. B. GPUStack, lokale
+    Modelle).
+-   **Entwicklung unklar** → offen bleiben.
+
+## Bekannte Grenzen von Sprachmodellen
+
+-   **Halluzinationen:** Seltenes «Wissen» ist schlecht repräsentiert; plausible, aber falsche
+    Antworten.
+-   **Bias:** Modelle spiegeln ihr Trainingsmaterial (rassistisch, sexistisch, ableistisch, …) –
+    auch wenn Nachtraining dies abzufedern versucht.
+-   **Lücken:** Wenig oder kein Trainingsmaterial etwa für historische Texte oder kleine Sprachen.
+-   **Imitationsmaschine:** Die Ausgaben klingen menschlich, Kontextwissen ist nur implizit
+    enthalten.
+
+## Leitfragen für die Auswertung
+
+-   **Was wollen Sie mit den Daten erreichen?** Die Aufgabe bestimmt den nötigen Qualitätsanspruch.
+-   **Qualität der Eingabe:** Hyperkorrektur vs. falsche Erkennung – Extraktion funktioniert auch
+    auf nicht perfekt erkanntem Text, aber Fehler pflanzen sich fort.
+-   **Open Source vs. Abhängigkeit von grossen Anbietern** – und der Preis der einfachen
+    Umsetzung.
+-   **Auswirkungen auf Gesellschaft und Umwelt** – in beide Richtungen: Datenschutz,
+    CO₂-Fussabdruck, Arbeitsbedingungen.
+-   **Muss es ein grosses Modell sein?** Für klar definierte Aufgaben (z. B. Named Entity
+    Recognition) liefern kleinere, «klassische» Sprachmodelle oft erklärbarere Resultate mit viel
+    weniger Ressourcen.
+
+## Strategien für einen reflektierten Umgang
+
+Eine Arbeitsgrundlage, die wir im Workshop gemeinsam ergänzen:
+
+1.  **Aufgabe vor Werkzeug:** Erst klären, was gelöst werden soll und woran Qualität gemessen
+    wird – dann das System wählen.
+2.  **Datenklassifikation vor Upload:** Personendaten, Geheimnisse und geschütztes Material
+    gehören nicht in externe Dienste ([unibe.ai](https://unibe.ai)); für geschütztes Material
+    lokale oder universitätseigene Modelle nutzen.
+3.  **Stichproben statt Vertrauen:** Ergebnisse systematisch prüfen, Fehlerquoten festhalten,
+    Quellenangaben verifizieren.
+4.  **Nachvollziehbarkeit sichern:** Prompts, Modellversion und Datum dokumentieren;
+    Zwischenergebnisse aufbewahren.
+5.  **Menschen im Loop:** Entscheidungen, die Personen betreffen oder publiziert werden, bleiben
+    bei Menschen.
+6.  **Agenten eng führen:** minimale Zugriffsrechte, keine Zugangsdaten in Prompts oder geteilten
+    Dateien, Aktionen vor Ausführung freigeben.
+7.  **Transparent machen:** KI-Unterstützung kennzeichnen – gegenüber Kolleg:innen, Nutzenden und
+    Leser:innen.
+8.  **Kooperieren:** Daten offen publizieren, offen kommunizieren, was funktioniert und was nicht;
+    Fragen der fairen Nutzung gemeinsam mit Gedächtnisinstitutionen und Datenanbietern klären.
+
+## Evaluation
+
+Der Link zur Evaluation des Workshops folgt am Ende der Veranstaltung.
