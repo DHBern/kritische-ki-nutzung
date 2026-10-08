@@ -25,7 +25,7 @@ lang: de-CH
 
 ## Leitfragen für die Auswertung
 
--   **Was wollen Sie mit den Daten erreichen?** Die Aufgabe bestimmt den nötigen Qualitätsanspruch.
+-   **Was willst du mit den Daten erreichen?** Die Aufgabe bestimmt den nötigen Qualitätsanspruch.
 -   **Qualität der Eingabe:** Hyperkorrektur vs. falsche Erkennung – Extraktion funktioniert auch
     auf nicht perfekt erkanntem Text, aber Fehler pflanzen sich fort.
 -   **Open Source vs. Abhängigkeit von grossen Anbietern** – und der Preis der einfachen

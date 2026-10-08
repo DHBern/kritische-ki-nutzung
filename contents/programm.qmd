@@ -14,9 +14,9 @@ universitätseigene Infrastruktur und zum Abschluss agentische Systeme dazu.
 ## 13:05–13:25 · Vorstellungsrunde
 
 -   Name und Arbeitsbereich
--   Wo begegnen Ihnen grosse Textmengen im Arbeitsalltag?
--   Welche KI-Werkzeuge nutzen Sie bereits – wofür?
--   Was möchten Sie heute mitnehmen?
+-   Wo begegnen dir grosse Textmengen im Arbeitsalltag?
+-   Welche KI-Werkzeuge nutzt du bereits – wofür?
+-   Was möchtest du heute mitnehmen?
 
 Die genannten Anwendungsfälle sind Kandidaten für die Gruppenaufgaben am Nachmittag.
 

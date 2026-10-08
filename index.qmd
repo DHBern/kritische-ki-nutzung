@@ -95,7 +95,7 @@ müssen.
 
 **Diese Seite auf dem eigenen Gerät öffnen**\
 <https://dhbern.github.io/kritische-ki-nutzung/>\
-Hier finden Sie während und nach dem Workshop Programm, Werkzeuge, Aufgaben und
+Hier findest du während und nach dem Workshop Programm, Werkzeuge, Aufgaben und
 [Folien](contents/folien.qmd).
 
 </div>

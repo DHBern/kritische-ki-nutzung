@@ -5,7 +5,7 @@ lang: de-CH
 ---
 
 ::: callout-warning
-## Bevor Sie Daten hochladen
+## Bevor du Daten hochlädst
 
 Die Universität Bern hält fest: In KI-Systeme dürfen **keine personenbezogenen Daten**, keine
 Amts- oder Berufsgeheimnisse und keine besonders schützenswerten Personen- oder Forschungsdaten
@@ -13,7 +13,7 @@ eingegeben werden – nur Informationen, die für die Öffentlichkeit bestimmt s
 rechtlichen Schutzbedarf haben. Das gilt auch für die von der Universität bereitgestellten
 Dienste. Details: [unibe.ai](https://unibe.ai).
 
-Faustregel aus dem Workshop: **Gratis heisst, dass Sie bzw. Ihre Daten das Produkt sind.**
+Faustregel aus dem Workshop: **Gratis heisst, dass du bzw. deine Daten das Produkt sind.**
 Urheberrechtlich geschütztes Material gehört in lokale oder von der Universität betriebene Modelle.
 :::
 
@@ -104,7 +104,7 @@ Modelle auf der Instanz (Stand Herbst 2026; welche gerade laufen, zeigt der Stat
 | qwen3-embedding-0.6b, granite-embedding-107m-multilingual | Embeddings             | semantische Suche, RAG                |
 | jina-reranker-v2-base-multilingual | Reranker                    | RAG                                   |
 
-### So greifen Sie zu
+### So greifst du zu
 
 1.  Mit dem WLAN eduroam der Universität verbinden.
 2.  <https://gpustack.unibe.ch> öffnen und anmelden; im **Playground** lassen sich die Modelle
@@ -115,7 +115,7 @@ Modelle auf der Instanz (Stand Herbst 2026; welche gerade laufen, zeigt der Stat
 
 ``` text
 Base URL:  https://gpustack.unibe.ch/v1
-API Key:   <Ihr eigener Schlüssel>
+API Key:   <dein eigener Schlüssel>
 Modell:    z. B. gpt-oss-120b
 ```
 
