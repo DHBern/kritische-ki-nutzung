@@ -46,7 +46,7 @@ AG Interne Weiterbildung (Andrea Stettler)
 
 **Anmeldung**
 
-bis Freitag, 9. Oktober 2026 via Veranstaltungskalender
+**ausgebucht** (25 Plätze)
 :::
 
 ## Worum es geht
@@ -61,9 +61,7 @@ verantwortungsvollen Umgang mit KI erarbeitet.
 **Zielgruppe:** Alle Interessierten, die regelmässig mit grossen Textmengen umgehen wollen oder
 müssen.
 
-**Voraussetzung:** Offenheit für die Interaktion mit neuen Systemen. Bitte einen Laptop mitbringen
-und, wenn möglich, vorab den [VPN-Zugang der Universität](https://www.unibe.ch/universitaet/campus__und__infrastruktur/rund_um_computer/internetzugang/vpn/index_ger.html)
-einrichten (nötig für [GPUStack](contents/werkzeuge.qmd#gpustack)).
+**Voraussetzung:** Offenheit für die Interaktion mit neuen Systemen. Bitte einen Laptop mitbringen. Im WLAN **eduroam** der Universität ist [GPUStack](contents/werkzeuge.qmd#gpustack) direkt erreichbar.
 
 ## Lernziele
 

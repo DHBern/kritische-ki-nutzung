@@ -49,14 +49,14 @@ Beobachtungen notieren – wir kommen im Input und am Schluss darauf zurück.
 -   Recherche-Tools
 -   Topic Modeling
 -   Bildanalyse mit Teachable Machine
--   **GPUStack** (gpustack.unibe.ch, nur via VPN) und lokale Clients (Msty)
+-   **GPUStack** (gpustack.unibe.ch, im Uni-Netz/eduroam) und lokale Clients (Msty)
 -   Rechtliche Rahmenbedingungen und Angebote der Informatikdienste ([unibe.ai](https://unibe.ai))
 
 → [Werkzeuge](werkzeuge.qmd)
 
 ## 14:50–15:05 · Pause [Pause]{.phase .phase-pause}
 
-Inklusive Zeit für Fragen und Unklarheiten, VPN- und Login-Probleme.
+Inklusive Zeit für Fragen und Unklarheiten, WLAN- und Login-Probleme.
 
 ## 15:05–16:05 · Aufgaben in Gruppen [Praxis]{.phase .phase-praxis}
 
@@ -66,7 +66,7 @@ Aufgabe definieren, Qualitätsanspruch festlegen, umsetzen, evaluieren.
 
 ## 16:05–16:35 · Präsentation und Auswertung [Reflexion]{.phase .phase-reflexion}
 
-Jede Gruppe stellt in ca. 4 Minuten vor: Aufgabe, Werkzeug, Ergebnis, Grenzen. Gemeinsam sammeln
+Jede Gruppe stellt in 5 Minuten vor: Aufgabe, Werkzeug, Ergebnis, Grenzen. Gemeinsam sammeln
 wir Herausforderungen und Grenzen der eingesetzten Systeme.
 
 ## 16:35–16:50 · Agentische Systeme [Input]{.phase .phase-input}

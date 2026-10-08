@@ -63,7 +63,7 @@ mit multimodalen Modellen (z. B. Qwen3-VL auf GPUStack)
 #### GPUStack (Uni Bern)
 
 Open-Source-Modelle auf Infrastruktur der Universität, über eine Weboberfläche und eine
-OpenAI-kompatible Schnittstelle. Nur via VPN.
+OpenAI-kompatible Schnittstelle. Im Uni-Netz (eduroam).
 
 [gpustack.unibe.ch](https://gpustack.unibe.ch) · [mehr dazu](#gpustack)
 :::
@@ -83,7 +83,7 @@ Google) in einer Oberfläche zusammenbringt.
 [GPUStack](https://github.com/gpustack/gpustack) ist eine Open-Source-Software, mit der sich
 Sprach-, Bild-, Embedding- und Spracherkennungsmodelle auf eigenen Grafikkarten betreiben lassen.
 An der Universität Bern läuft eine Instanz unter **<https://gpustack.unibe.ch>** – erreichbar
-**nur über das VPN** der Universität.
+im **Netz der Universität** – vor Ort genügt das WLAN eduroam.
 
 Warum das interessant ist: Durch Mixture-of-Experts-Architekturen und bessere Trainingsverfahren
 werden Modelle mit 1–40 Milliarden Parametern deutlich fähiger. Damit wird der **Betrieb auf
@@ -106,7 +106,7 @@ Modelle auf der Instanz (Stand Herbst 2026; welche gerade laufen, zeigt der Stat
 
 ### So greifen Sie zu
 
-1.  VPN der Universität verbinden.
+1.  Mit dem WLAN eduroam der Universität verbinden.
 2.  <https://gpustack.unibe.ch> öffnen und anmelden; im **Playground** lassen sich die Modelle
     direkt testen.
 3.  Für andere Programme (z. B. Msty, Python): unter **Access Control → API Keys** einen
